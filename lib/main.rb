@@ -3,6 +3,9 @@
 
 require 'twitter/json_stream'
 require 'json'
+
+$: << "."
+
 require File.dirname(__FILE__) + '/as_publisher'
 
 KEYWORDS = ENV['KEYWORDS']
