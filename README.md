@@ -2,7 +2,7 @@ DuckWatcher
 =======================
 
 DuckWatcher watches loud ducks in Twitter
-and reports to [AsakusaSatellite](http://www.codefirst.org/AsakusaSattelite/).
+and reports to [AsakusaSatellite](http://www.codefirst.org/AsakusaSatellite/).
 
 Authors
 -----------------------
