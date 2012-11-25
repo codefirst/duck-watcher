@@ -31,6 +31,7 @@ Type below command:
 
     $ heroku create xxxxx
     $ git push heroku master
+    $ heroku scale bot=1
     $ heroku config:add KEYWORDS=... TWITTER...
 
 set KEYWORDS like "codefirst,asakusasatellite,..."
