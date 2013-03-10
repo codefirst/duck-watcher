@@ -17,7 +17,7 @@ publisher = ASPublisher.new
 EventMachine::run {
 
   stream = Twitter::JSONStream.connect(
-    :path    => "/1/statuses/filter.json?track=#{KEYWORDS}",
+    :path    => "/1.1/statuses/filter.json?track=#{KEYWORDS}",
     :auth    => "#{LOGIN}:#{PASSWORD}",
     :ssl     => true
   )
