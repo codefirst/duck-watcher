@@ -22,6 +22,8 @@ Type below command:
     $ bundle install --path vendor/bundle
     $ cp .env.example .env
     $ vi .env
+    $ bundle exec ruby lib/oauth_helper.rb
+    $ vi .env
     $ bundle exec foreman start
 
 Installation to Heroku
@@ -32,16 +34,9 @@ Type below command:
     $ heroku create xxxxx
     $ git push heroku master
     $ heroku scale bot=1
-    $ heroku config:add KEYWORDS=... TWITTER...
+    $ heroku config:add KEYWORDS=... ASAKUSA_SATELLITE_...
 
 set KEYWORDS like "codefirst,asakusasatellite,..."
-
-Thanks
------------------------
-I refered below URLs. Thanks.
-
-* http://blog.monoweb.info/article/2012012423.html
-* https://github.com/voloko/twitter-stream/
 
 License
 -----------------------

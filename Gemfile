@@ -1,4 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 gem 'foreman'
-gem 'twitter-stream'
+gem 'tweetstream'
 gem 'json'
+gem 'oauth'
+gem 'dotenv'
