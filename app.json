@@ -1,0 +1,40 @@
+{
+  "name": "DuckWatcher",
+  "description": "DuckWatcher watches loud ducks in Twitter and reports to AsakusaSatellite.",
+  "repository": "https://github.com/codefirst/duck-watcher/",
+  "env": {
+    "KEYWORDS": {
+      "description": "Comma seperated keywords what you want to watch",
+      "required": true
+    },
+    "CONSUMER_KEY": {
+      "description": "Twitter OAuth consumer key",
+      "required": true
+    },
+    "CONSUMER_SECRET": {
+      "description": "Twitter OAuth consumer secret",
+      "required": true
+    },
+    "ACCESS_TOKEN_KEY": {
+      "description": "Twitter OAuth access token key",
+      "required": true
+    },
+    "ACCESS_SECRET": {
+      "description": "Twitter OAuth access scret",
+      "required": true
+    },
+    "ASAKUSA_SATELLITE_ENTRY_POINT": {
+      "description": "AsakusaSatellite entry point (ex: https://asakusa-satellite.example.com/api/v1)",
+      "required": true
+    },
+    "ASAKUSA_SATELLITE_API_KEY": {
+      "description": "AsakusaSatellite API key",
+      "required": true
+    },
+    "ASAKUSA_SATELLITE_ROOM_ID": {
+      "description": "AsakusaSatellite Room ID",
+      "required": true
+    }
+  }
+}
+

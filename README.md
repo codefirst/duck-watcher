@@ -1,6 +1,8 @@
 DuckWatcher
 =======================
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 DuckWatcher watches loud ducks in Twitter
 and reports to [AsakusaSatellite](http://www.codefirst.org/AsakusaSatellite/).
 
